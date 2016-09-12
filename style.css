@@ -5,3 +5,7 @@ p{
 h1{font-family: georgia, "times new roman", serif;}
 
 body{background-color:red;}
+
+#container{
+  background-color:white;
+}
