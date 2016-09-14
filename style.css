@@ -1,10 +1,19 @@
 
 #container{
-  background-color: black
+  background-color: #66655
 }
 #nav {
+  margin:0;
   padding: 0;
+  width: 25%;
 }
+
+#nav a:link, a:visited {
+  display: block;
+  color: #fff;
+  background-color: #98bf21;
+}
+
 #nav li {
   list-style-type: none;
   float: left;
