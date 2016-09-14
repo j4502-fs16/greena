@@ -4,9 +4,11 @@ h4 {color:red;}
 
 
 #container{
-  background-color: red;
-  width:auto; height:auto;
+  width: 95%
+  background-color: red
+  margin:0 auto;
 }
+
 #nav {
   margin:0;
   padding: 0;
