@@ -10,3 +10,9 @@ body{
 #container{
   background-color: white
 }
+#nav {
+  padding: 0;
+}
+#nav li {
+  list-style-type: none;
+}
