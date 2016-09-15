@@ -1,9 +1,14 @@
-p {color:red;}
-h1 {color:red;}
-h4 {color:red;}
+p {color:red;
+margin-left: 40px;}
+h1 {color:red;
+margin-left: 40px;}
+h4 {color:red;
+margin-left: 40px;}
 h2 {color:red;
+  margin-left: 40px;
 }
-h3{color:red;}
+h3{color:red;
+margin-left: 40px;}
 
 
 #container{
@@ -12,7 +17,7 @@ h3{color:red;}
   margin:0 auto;
 }
 body{
-  background-color:lightgreen;
+  background-color:linen;
 }
 li {
   display: block;
