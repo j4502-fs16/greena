@@ -20,7 +20,7 @@ div{
 
 #nav a:hover, a:visited, a:active {
   font-family: "courier new", georgia, times;
-  color: purple
+  color: purple;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
