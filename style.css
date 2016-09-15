@@ -25,6 +25,7 @@ margin-left: 40px;}
 }
 body{
   background-color:linen;
+  float: center;
 }
 li {
   display: block;
@@ -32,7 +33,7 @@ li {
 
 #nav ul {
   list-style-type: none;
-  margin:0;
+  margin: 0;
   padding: 0;
   width: 50%;
 }
@@ -42,11 +43,11 @@ li {
 
 #nav a:link, a:visited {
   display: block;
-  color: #fff;
-  background-color: #98bf21;
+  color: red;
+  background-color: black;
 }
 
 #nav li {
   list-style-type: none;
-  float: left;
+  float: center;
 }
