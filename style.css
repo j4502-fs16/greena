@@ -1,12 +1,21 @@
 p {color:red;}
 h1 {color:red;}
 h4 {color:red;}
+h2 {color:red;
+}
+h3{color:red;}
 
 
 #container{
   width: 95%
   background-color: red
   margin:0 auto;
+}
+body{
+  background-color:lightgreen;
+}
+li {
+  display: inline;
 }
 
 #nav {
