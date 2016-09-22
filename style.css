@@ -74,7 +74,7 @@ font-size: 50px;
 font-weight: lighter;
 }
 h4 {
-  font-family: lucida, georgia, times;
+  font-family: 'Montserrat', sans-serif, serif;
 
   color:white;
 
@@ -83,14 +83,14 @@ text-align: center;
   font-weight: lighter;
 }
 h2 {
-  font-family: serif, georgia, lucida;
+font-family: 'Open Sans', sans-serif, serif;
   color:white;
   text-align: center;
   font-size: 50px;
   font-weight: bolder;
 }
 h3{
-  font-family: georgia, serif, "times new roman";
+font-family: 'Roboto Slab', serif, sans-serif;
   color:white;
   text-align: center;
   font-size: 30px;
