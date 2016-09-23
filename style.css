@@ -29,7 +29,7 @@ img {
 }
 
 #nav a:hover, a:visited, a:active {
-  font-family: "courier new", georgia, times;
+  font-family: 'Open Sans', sans-serif, helvetica; 
   color: purple;
   padding: 14px 25px;
   text-align: center;
@@ -57,7 +57,7 @@ li{
 }
 
 p {
-  font-family: 'Open Sans', sans-serif, helvetica; 
+  font-family: 'Open Sans', sans-serif, helvetica;
   color:white;
 text-align: center;
 font-size: 70px;
