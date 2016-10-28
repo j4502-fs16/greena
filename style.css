@@ -15,24 +15,29 @@ img {
 
 }
 
+
+
 #container{
   width: 95%;
   margin: 0 auto;
 }
-#nav {
+#nav li {
   list-style-type: none;
   margin: 0;
-  padding: 40px;
+  padding: 0;
+  text-align: center;
+  width: 25%;
+
 
 
 
 }
 
 #nav a:hover, a:visited, a:active {
-  font-family: 'Open Sans', sans-serif, helvetica; 
+  font-family: 'Open Sans', sans-serif, helvetica;
   color: purple;
   padding: 14px 25px;
-  text-align: center;
+
   text-decoration: none;
   display: inline-block;
 
@@ -40,9 +45,9 @@ img {
 
 
 li{
-  float: left;
+
   background-color: white;
-  text-align: center;
+
 
 }
 #nav a {
@@ -51,17 +56,83 @@ li{
 
   background-position: center;
   padding: 20px;
+  float: none;
 
 
 
 }
 
+
+.nav{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-flow: column;
+
+}
+.nav a{
+  text-decoration:none;
+  display:block;
+  padding:10px;
+  color:purple;
+
+}
+@media (min-width: 800px){
+  .nav{flex-flow:row;
+  justify-content: flex-end;}
+}
+.nav a:hover{
+  background: rgb(198,135,196);
+}
+.first{
+  margin-right:auto;}
+
+
+.header{
+  background:purple;
+}
+
+.main{background:rgb(198,135,196);}
+.aside-1{
+  background: rgb(198,135,196);
+}
+.aside-2{
+  background:rgb(198,135,196);
+}
+
+.wrapper{
+  display:flex;
+  flex-flow:row wrap;
+  font-weight:bold;
+  text-align:center;
+}
+
+.header, .main, .aside{
+  flex:1 100%;
+  padding: 10px;
+}
+
+img{
+  width:100%;
+}
+
+@media(min-width:800px){
+  .aside{flex:1 auto;}
+  .main{flex:3 0px;}
+  .aside-1{order:1;}
+  .aside-2{order:2;}
+  .main{display:flex; flex-flow:row;}
+  img{
+    width:30%; height:250px; margin-right: 10px;
+  }
+}
 p {
   font-family: 'Open Sans', sans-serif, helvetica;
   color:white;
-text-align: center;
-font-size: 70px;
+font-size: 20px;
 font-weight: lighter;
+text-align: center;
 }
 
 h1 {
