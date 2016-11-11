@@ -28,9 +28,6 @@ img {
   text-align: center;
   width: 25%;
 
-
-
-
 }
 
 #nav a:hover, a:visited, a:active {
@@ -57,9 +54,6 @@ li{
   background-position: center;
   padding: 20px;
   float: none;
-
-
-
 }
 
 
@@ -210,17 +204,10 @@ text-align: center;
    transition:height .35s ease-in-out;
 
  }
-
-
 }
 
 
-@media all and (min-width:600px){
-  .heading-group{
-    display:flex;
-    flex-flow:row;
-    justify-content:space-around;
-  }
+
 
   .heading label{
     padding:0 10px;
@@ -235,7 +222,6 @@ text-align: center;
     overflow:hidden;
     transition:height .35s ease-in-out;
 }
-
 }
 
 
@@ -270,3 +256,61 @@ font-family: 'Roboto Slab', serif, helvetica;
   text-align: center;
   font-size: 30px;
   font-weight: lighter;}
+
+  body {
+    background-color: #purple;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  nav ul li {
+      display: block;
+      border-top: 1px #79896d solid;
+  }
+
+  nav a {
+      color: purple;
+      display: block;
+      text-decoration: none;
+      padding: 20px 30px;
+  }
+
+
+
+  .menu-trigger {
+      order: 1;
+      font-size: 1.75em;
+      width: 2em;
+  }
+
+  header h1 {
+      order: 2;
+      font-size: 2em;
+  }
+
+  nav ul {
+      display: none;
+  }
+
+  @media screen and (min-width: 700px){
+
+      nav ul {
+          display: flex;
+      }
+
+      nav ul li {
+          border-top: none;
+      }
+
+      .menu-trigger {
+          display: none;
+      }
+
+      header h1 {
+          order: 1;
+      }
+
+      nav {
+          order: 2;
+      }
+
+  }
