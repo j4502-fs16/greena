@@ -222,7 +222,7 @@ text-align: center;
     overflow:hidden;
     transition:height .35s ease-in-out;
 }
-}
+
 
 
 h1 {
@@ -258,7 +258,7 @@ font-family: 'Roboto Slab', serif, helvetica;
   font-weight: lighter;}
 
   body {
-    background-color: #purple;
+    background-color: purple;
     font-family: Helvetica, Arial, sans-serif;
   }
 
